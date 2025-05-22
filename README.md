@@ -40,7 +40,22 @@ Currently, I'm focused on developing systems that can identify implicit motivati
 
 <div align="center">
   
-![Snake animation](https://raw.githubusercontent.com/zahurul-islam/zahurul-islam/output/github-contribution-grid-snake-dark.svg)
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: zahurul-islam
+          outputs: |
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
 </div>
 
