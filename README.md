@@ -36,31 +36,6 @@ Currently, I'm focused on developing systems that can identify implicit motivati
 
 ---
 
-## 🐍 GitHub Contribution Snake
-
-<div align="center">
-  
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: zahurul-islam
-          outputs: |
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-</div>
-
----
-
 ## 🛠️ Tech Stack
 
 ### 🤖 AI & Machine Learning
