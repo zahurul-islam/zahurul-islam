@@ -10,7 +10,7 @@
 
 ## 🧠 About Me
 
-I'm a **Head of AI ** with over **15 years of experience** in Natural Language Processing and Machine Learning. I enjoy working on challenging problems that involve understanding human language and behavior through AI.
+I'm a ** Head of AI ** with over **15 years of experience** in Natural Language Processing and Machine Learning. I enjoy working on challenging problems that involve understanding human language and behavior through AI.
 
 Currently, I'm focused on developing systems that can identify implicit motivations from text and speech, combining my background in computer science with practical applications in psychology and human resources.
 
